@@ -73,3 +73,37 @@ nav a:hover
 {
     color: #000;
 }
+.input-form
+{
+    margin: 1rem 0;
+    font-size: 0.8rem;
+}
+.input-form input[type=text], .input-form input[type=email], .input-form textarea
+{
+    padding:  0.2rem 0 0.2rem 0.3rem;
+    width: 90%;
+    border:  blueviolet solid 1px;
+    border-radius: 2px;
+}
+.input-form label
+{
+    margin:  0 0 0.4rem;
+}
+.input-form input[type=submit]
+{
+    border:  blueviolet solid 1px;
+    padding:  0.2rem;
+    width: 90%;
+    background-color: blueviolet;
+    color: #fff;
+}
+.input-form input[type=submit]:hover
+{
+    cursor: pointer;
+    background-color:rgb(168, 4, 168);
+}
+.galerie
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
